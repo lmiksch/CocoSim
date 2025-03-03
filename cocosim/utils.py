@@ -2,7 +2,7 @@
 """
 This module contains all the different util functions. 
 """
-import RNA
+#import RNA
 
 def is_balanced_structure(s):
     stack = []
