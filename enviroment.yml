@@ -1,0 +1,15 @@
+name: cocosim-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - flit
+    - peppercornenumerator
+    - pytest
+    - pytest-cov
+    - crnsimulator
+    - coverage
+    - viennarna
