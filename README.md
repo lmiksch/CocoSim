@@ -42,9 +42,17 @@ Running **Cocosim** without any options will prompt you to enter a domain-level 
 
       cocosim
 
-You'll see a prompt like:
+A prompt will rise to input the domain sequence: 
 
       Please enter a domain level sequence:
+
+
+Afterwards an aCFP is asked via 
+
+      Current Input: []
+      Please input a folding path in dot-bracket annotation or use '$' to exit input and continue use 'r' to reset input:
+
+
 
 If you do not have an aCFP (a specific folding path) available, you can skip this step by entering `$`.
 
