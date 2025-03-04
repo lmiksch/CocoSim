@@ -74,7 +74,7 @@ To run Cocosim with the `-l` flag, execute:
 
 A sample session might look like this:
 
-    (test-cocosim) miksch@romulus:~/Documents/CocoSim$ cocosim -l 
+    (test-cocosim) user@pc:~/Documents/CocoSim$ cocosim -l 
     Please enter a domain level sequence:
     a L0 b L0* a c a* L0 
     Given Domain Sequence: a L0 b L0* a c a* L0 
