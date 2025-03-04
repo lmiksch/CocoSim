@@ -111,21 +111,6 @@ In this mode, after you input your folding path (using dot-bracket notation), Co
 - **Logic domain pairing:** A representation of the pairing logic based on your input.
 - **Structure:** The evolving domain-level structure.
 
-### Sample Output (Without the -l Flag)
-
-Here’s an example output when running **Cocosim** with an input file:
-
-    ({'S7': PepperComplex(S7, a* b* L0* c* d* S0 c L0 b S1 L0* S2 d c L0 b a S3)}, set())
-    Given Domain Sequence: a* b* L0* c* d* S0 c L0 b S1 L0* S2 d c L0 b a S3
-
-    Current Input: []
-    Please input a folding path in dot-bracket annotation or use '$' to exit input and continue use 'r' to reset input:
-    $ 
-
-    Final Input:
-    []
-
-Following this, the simulation displays the transcription steps, occupancy values, and evolving structure.
 
 ## Dependencies
 
