@@ -16,7 +16,7 @@ jobs:
           python-version: 3.12
           auto-update-conda: true
           environment-file: environment.yml
-          activate-environment: cocopaths-env
+          activate-environment: cocosim-env
       - name: Initialize Conda
         run: |
           conda init bash
@@ -27,7 +27,7 @@ jobs:
         run: |
           conda init bash
           source ~/.bashrc 
-          conda activate cocopaths-env
+          conda activate cocosim-env
           pytest --cov=./ --cov-report=xml
         shell: bash
 
